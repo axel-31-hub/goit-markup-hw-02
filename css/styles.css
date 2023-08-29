@@ -18,6 +18,13 @@
   list-style: none;
   text-decoration: none;
 }
+:root {
+  --color--titulo--principal: rgb(255, 255, 255);
+  --color--buttom--pasivo: rgb(238, 238, 238);
+  --color--buttom--activo: rgb(33, 150, 243);
+  --color--text--secundario: rgb(255, 255, 255);
+  --color--fondo--secundario: rgb(47, 48, 58);
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -25,18 +32,18 @@ body {
 }
 
 .titulo_pagina {
-  color: #2196f3;
+  color: var(--color--buttom--activo);
 }
 /* estilos index  */
 
 .fondo_secundarios {
-  background: #2f303a;
+  background: var(--color--fondo--secundario);
 }
 .test-color {
   color: #212121;
 }
 .test-color:hover {
-  color: blue;
+  color: var(--color--buttom--activo);
 }
 .titulo_studio_2 {
   color: #212121;
@@ -82,15 +89,11 @@ body {
 .test-color-footer {
   color: #ffffff99;
 }
-.test-color-footer:hover {
-  color: blue;
-}
+
 .footer-direccion {
   color: #ffffff;
 }
-.footer-direccion:hover {
-  color: blue;
-}
+
 .button {
   font-size: 16px;
   letter-spacing: 0.03em;
