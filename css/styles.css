@@ -64,6 +64,33 @@ body {
 }
 /*  estilos portafolio  */
 
+.test-color-cont {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.fondo_secundarios {
+  background: #2f303a;
+}
+.footer-fondo {
+  background: #2f303a;
+}
+.test-color-footer {
+  color: #ffffff99;
+}
+.test-color-footer:hover {
+  color: blue;
+}
+.footer-direccion {
+  color: #ffffff;
+}
+.footer-direccion:hover {
+  color: blue;
+}
 .button {
   font-size: 16px;
   letter-spacing: 0.03em;
